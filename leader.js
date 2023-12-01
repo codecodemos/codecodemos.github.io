@@ -124,7 +124,7 @@ function setBoard(boardData){
             var toggle = document.createElement('tr')
             toggle.classList.add('details')
             toggle.classList.add('details-hide')
-            toggle.setAttribute('id', boardData[i].id)
+            toggle.setAttribute('id', boardData[i].codeId)
             toggle.classList.add
             tbody.appendChild(toggle)
             tr.addEventListener('click', function () {
