@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>CodeMos</title>
+        <title>CodeMos</title>    
+        <script type="text/javascript">
+            if (window.location.protocol == "https:") {
+                // Redirect to the HTTP version of the page
+                window.location.href = "http://" + window.location.hostname + window.location.pathname + window.location.search;
+            }
+        </script>
         <meta property="og:title" content="CodeMos" />
         <meta name="description" content="Can you successfully pilot the lander to the surface? Play instantly from your phone or computer." />
         <meta property="og:description" content="Can you successfully pilot the lander to the surface?" />
